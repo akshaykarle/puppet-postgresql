@@ -8,7 +8,7 @@ class postgresql::params {
       $executable = "${boxen::config::home}/homebrew/bin/postgres"
       $datadir    = "${boxen::config::datadir}/postgresql-9.3"
       $logdir     = "${boxen::config::logdir}/postgresql-9.3"
-      $port       = 15432
+      $port       = 5432
 
       $package    = 'boxen/brews/postgresql'
       $version    = '9.3.2-boxen'
